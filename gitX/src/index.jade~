@@ -1,0 +1,57 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title GitX
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  body
+
+    article
+
+      section
+        h1 GitX
+      
+      section
+        h2 GitX Nedir?
+        h3 X derken: Git, GitHub ve GitLab hakkında bilmemiz gerekenler..
+
+      section
+        h2 Git Nedir?
+        h3 Git bir sürüm kontrol sistemidir. <br> (Daha detaylı olarak sunum sonunda anlatılmıştır.)
+
+      section
+        h2 GitHub Nedir?
+        h3 Git sürüm takip sistemini kullanan projeleri depolayan bir web servistir.
+
+      section
+        h2 GitLab Nedir?
+        h3 wiki ve iş takibi özelliklerine sahip olan bir açık kaynak lisanlı olan web-tabanlı Git repoların yöneticisidir.
+
+
+      section
+        h2 GitHub ve GitLab Farkları
+        h3. GitHub paralı. GitLab ise ücretsiz.
+        ul
+          li GitHub sunucuları uzakta olan sunuculardır
+          li GitLab ise kendi yerel sunucunuzu kurmanıza imkan sağlıyor
+          li GitLab, sadece sürüm takip değil de, wiki, iş yönetimi gibi özelliklere sahiptir
+
+
+      section
+        h3 Sürüm Takip Sistemi
+        h5. yazılan kodun tarihçesini tutar: kim ne zaman neyi ve neden değiştirmiş?
+        ul
+          h5 Senkron: bir dosyada sadece bir kişi değişiklik yapabilir 
+          h5 Asenkron: bir dosyada herkes istediği anda istediği şekilde değişiklik yapabilir 
+          h5 Merkezi ve Dağıtık olarak da ikiye ayrılır.
+
+      section.emphatic-text(data-bespoke-backdrop='emphatic')
+        h2 THANX For Attention))
+        h3 
+
+
+
+    script(src='build/build.js')
